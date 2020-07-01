@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.menu {
+    width: 100%;
+    height: 350px;
+    color: white;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.menu a {
+    margin: 10px;
+    color: black;
+    float: left;
+    min-height: 10px;
+}
+
+.menu strong:hover {
+    background-color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    justify-content: space-between;
+    padding-left: 100px;
+    margin-top: 10px;
+}
+
+.text-footer {
+    padding-top: 30px;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .text-footer .col-sm-2 {
+    color: white;
+}
+
+.final {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border-top: 1px solid red;
+    height: 30px;
+}
+
+.cosult {
+    margin-left: 80px;
+}
+
+.button {
+    background-color: #76a7f7;
+    color: white;
+}
+
+.button:hover {
+    background-color: #f7a13d;
+}
+
+.row hr {
+    border-top: 1px solid white;
+}
+
+.image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+
+.content {
+    padding-left: 50px;
+}
+
+.cosult p {
+    margin-top: -10px;
+    border-top: 1px solid black;
+}
+
+.menu .phone {
+    margin-top: 300px;
+    padding-left: 35px;
+}
+
+.call {
+    background-color: red;
+    color: white;
+}
+
+.call:hover {
+    background-color: rgb(84, 221, 20);
+}
